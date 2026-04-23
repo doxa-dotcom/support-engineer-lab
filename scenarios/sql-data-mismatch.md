@@ -13,24 +13,24 @@ Determine whether the issue came from:
 - mismatched IDs between systems
 
 ## Example Query Used
-```sql
+
 SELECT id, name, email, status
 FROM customers
-WHERE id = 101;
+WHERE id = 101; 
 
-##Follow-up Query
+## Follow-up Query
 SELECT id, customer_id, order_total, created_at
 FROM orders
 WHERE customer_id = 101;
 
-##Findings
+## Findings
 Customer record existed
 Related order data was associated with the correct customer_id
 The mismatch suggested the application may have been referencing the wrong field or mapping the wrong response data
 
-##Root Cause
+## Root Cause
 Potential data mapping issue between the application layer and the underlying database query results.
 
-##Resolution
+## Resolution
 Escalated for engineering review, documenting expected vs. actual output and the SQL checks performed.
 
