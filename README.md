@@ -1,17 +1,20 @@
 # support-engineer-lab
 
+This project simulates real-world troubleshooting workflows used in technical support and integration roles.
+
 This project demonstrates how I approach real-world technical support scenarios, including API troubleshooting, issue validation, and root cause analysis.
 
 ## 🔧 Tools Used
 - Postman (API testing)
 - HTTP/REST APIs
+- SQL (data investigation)
 - JSON response analysis
 
 ## 🧠 Skills Demonstrated
 - API troubleshooting
 - HTTP status code analysis (200, 404, etc.)
 - Root cause analysis
-- Writing validation tests
+- Writing validation tests in Postman
 - Technical documentation
 
 ## 📂 Scenarios
@@ -34,9 +37,14 @@ This project demonstrates how I approach real-world technical support scenarios,
  ### 4. SQL Data Mismatch Investigation
 - Simulated investigation of incorrect application data
 - Used SQL queries to validate records and check related data
-- Documented likely root cause and escalation path 
+- Documented likely root cause and escalation path
 
-## 📌 Summary
+## Included Files
+- `support-engineer-lab.postman_collection.json` — Postman collection
+- `scenarios/` — real-world investigation notes
+- `screenshots/` — Postman results
+
+## Summary
 This lab simulates real support engineer workflows:
 - Investigating issues
 - Validating system behavior
