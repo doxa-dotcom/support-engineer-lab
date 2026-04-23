@@ -31,6 +31,11 @@ This project demonstrates how I approach real-world technical support scenarios,
 - Validated response data using Postman test scripts
 - Confirmed correct status code (201 Created)
 
+ ### 4. SQL Data Mismatch Investigation
+- Simulated investigation of incorrect application data
+- Used SQL queries to validate records and check related data
+- Documented likely root cause and escalation path 
+
 ## 📌 Summary
 This lab simulates real support engineer workflows:
 - Investigating issues
