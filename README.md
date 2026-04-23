@@ -4,20 +4,20 @@ This project simulates real-world troubleshooting workflows used in technical su
 
 This project demonstrates how I approach real-world technical support scenarios, including API troubleshooting, issue validation, and root cause analysis.
 
-## 🔧 Tools Used
+## Tools Used
 - Postman (API testing)
 - HTTP/REST APIs
 - SQL (data investigation)
 - JSON response analysis
 
-## 🧠 Skills Demonstrated
+## Skills Demonstrated
 - API troubleshooting
 - HTTP status code analysis (200, 404, etc.)
 - Root cause analysis
 - Writing validation tests in Postman
 - Technical documentation
 
-## 📂 Scenarios
+## Scenarios
 
 ### 1. Successful API Request
 - Endpoint: GET /posts/1
