@@ -1,0 +1,67 @@
+{
+  "info": {
+    "_postman_id": "2fe3c796-1897-4adc-b60b-9656572849db",
+    "name": "Support Engineer Lab",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "54241120",
+    "_collection_link": "https://go.postman.co/collection/54241120-2fe3c796-1897-4adc-b60b-9656572849db?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Success Scenarios",
+      "item": [
+        {
+          "name": "Get Post by ID",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        },
+        {
+          "name": "Create Post",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Error Scenarios",
+      "item": [
+        {
+          "name": "Invalid Endpoint Test",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "description": "Scenario: API returns 404 error\n\nIssue:  \nUser reports endpoint is not working  \n  \nInvestigation:  \nChecked endpoint and confirmed it does not exist  \n  \nRoot Cause:  \nIncorrect endpoint used  \n  \nResolution:  \nUse valid endpoint: /posts/1"
+          },
+          "response": []
+        },
+        {
+          "name": "Unauthorized Request (401)",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        },
+        {
+          "name": "Bug Scenario - Wrong Title Returned",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "description": "Scenario: User reports incorrect title returned from API\n\nExpected: \"Test incident\"  \nActual: API returns a different title value\n\nThis test intentionally fails to simulate a real-world data inconsistency issue."
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Docs",
+      "item": []
+    }
+  ]
+}
