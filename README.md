@@ -44,6 +44,11 @@ This project demonstrates how I approach real-world technical support scenarios,
 - `scenarios/` — real-world investigation notes
 - `screenshots/` — Postman results
 
+## Example Test Result
+
+This example shows a successful API response (200 OK) with a failing validation test, indicating a mismatch between expected and actual data.
+![Failing Test](screenshots/failing-test.png)
+
 ## Summary
 This lab simulates real support engineer workflows:
 - Investigating issues
